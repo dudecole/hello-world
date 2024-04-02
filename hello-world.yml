@@ -10,5 +10,6 @@
 
   - name: Debug Source Vars if available
     debug: 
-      msg: "something else"
+      var: debug_source_vars
     when: '"debug_source_vars" is defined'
+
