@@ -13,3 +13,7 @@
       var: debug_source_vars
     when: '"debug_source_vars" is defined'
 
+  - name: print the target_env variable
+    debug: 
+      var: target_env
+    when: '"target_env" is defined'
