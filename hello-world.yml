@@ -8,3 +8,7 @@
     debug: 
       msg: "Hello World"
 
+  - name: Debug Source Vars if available
+    debug: 
+      msg: "{{ debug_source_vars }}"
+    when: '"debug_source_vars" is defined'
