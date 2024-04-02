@@ -10,5 +10,5 @@
 
   - name: Debug Source Vars if available
     debug: 
-      msg: "{{ debug_source_vars }}"
+      msg: "something else"
     when: '"debug_source_vars" is defined'
