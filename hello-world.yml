@@ -10,10 +10,10 @@
 
   - name: Debug Source Vars if available
     debug: 
-      var: debug_source_vars_1
+      msg: "{{ debug_source_vars_1 }}"
     when: debug_source_vars_1 is defined
 
   - name: print the target_env variable
     debug: 
-      var: target_env
+      msg: "{{ target_env }}"
     when: target_env is defined
