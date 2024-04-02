@@ -10,8 +10,8 @@
 
   - name: Debug Source Vars if available
     debug: 
-      var: debug_source_vars
-    when: '"debug_source_vars" is defined'
+      var: debug_source_vars_1
+    when: '"debug_source_vars_1" is defined'
 
   - name: print the target_env variable
     debug: 
